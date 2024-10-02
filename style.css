@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 40pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(90deg, rgb(36, 11, 0) 0%, rgb(121, 9, 9) 35%, rgb(255, 0, 85) 100%);
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+select {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#message {
+  font-size: 1.2em;
+  color: #333;
+}
